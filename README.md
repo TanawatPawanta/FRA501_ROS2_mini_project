@@ -22,6 +22,7 @@
 > 
 > ## System Architecture
 > [Click here : system architecture.png](https://drive.google.com/file/d/1BqTgiDabkhHZd-9FrFM0rYJEnVgUlL8M/view?usp=drive_link)
+> 
 > **Packages list**
  - *turtlesim_plus_planning* : เป็น package สำหรับสร้าง path ของเต่าเเต่ละตัวให้เป็นตัวอักษรที่ต้องการ โดยจะมี Node "*tao_plannig*" ที่จะสร้าง path สร้างตาม namespace เเละนำไปเก็บไว้ที่ via_point_xx.yaml ที่รับมาจาก ros parameters
  - *turtlesim_plus_scheduler* : เป็น package สำหรับจัดการตารางการเคลื่อนที่ของน้องเต่าโดยจะคอยบอกจุดต่อไปที่น้องเต่าต้องไป โดยจะมี Node "*tao_scheduler*" ทำการ request ผ่าน ros service "go2Target" นอกจากนี้ยังทำหน้าที่ในการส่ง request สำหรับการ spawn pizza อีกด้วยโดยภายใน package จะประกอบด้วย ros argument ที่เป็นการรับ file path ของ via_point_xx.yaml ที่อยู่ใน share directory
