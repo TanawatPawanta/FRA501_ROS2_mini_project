@@ -1,0 +1,43 @@
+[0.057s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller -- -j8 -l8
+[0.190s] [100%] Built target cpp_node_test
+[0.193s] [100%] Built target ament_cmake_python_copy_turtlesim_plus_controller
+[0.751s] running egg_info
+[0.753s] writing turtlesim_plus_controller.egg-info/PKG-INFO
+[0.753s] writing dependency_links to turtlesim_plus_controller.egg-info/dependency_links.txt
+[0.753s] writing top-level names to turtlesim_plus_controller.egg-info/top_level.txt
+[0.758s] reading manifest file 'turtlesim_plus_controller.egg-info/SOURCES.txt'
+[0.759s] writing manifest file 'turtlesim_plus_controller.egg-info/SOURCES.txt'
+[0.831s] [100%] Built target ament_cmake_python_build_turtlesim_plus_controller_egg
+[0.862s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller -- -j8 -l8
+[0.931s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller
+[0.942s] -- Install configuration: ""
+[0.942s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/pythonpath.sh
+[0.942s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/pythonpath.dsv
+[0.942s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller-0.0.0-py3.10.egg-info
+[0.943s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.943s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.943s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.943s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.945s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller
+[0.946s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller/dummy_module.py
+[0.947s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller/__init__.py
+[1.010s] Listing '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/local/lib/python3.10/dist-packages/turtlesim_plus_controller'...
+[1.020s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/turtlesim_plus_controller/tao_controller.py
+[1.021s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/turtlesim_plus_controller/cpp_node_test
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus_controller
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus_controller
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/ament_prefix_path.sh
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/path.sh
+[1.024s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/environment/path.dsv
+[1.025s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/local_setup.bash
+[1.025s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/local_setup.sh
+[1.025s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/local_setup.zsh
+[1.026s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/local_setup.dsv
+[1.027s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.dsv
+[1.027s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/ament_index/resource_index/packages/turtlesim_plus_controller
+[1.027s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/cmake/turtlesim_plus_controllerConfig.cmake
+[1.027s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/cmake/turtlesim_plus_controllerConfig-version.cmake
+[1.027s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.xml
+[1.033s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller

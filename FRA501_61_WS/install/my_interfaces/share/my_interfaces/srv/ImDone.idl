@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/ImDone.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module my_interfaces {
+  module srv {
+    struct ImDone_Request {
+      boolean success;
+
+      geometry_msgs::msg::Point imhere;
+    };
+    struct ImDone_Response {
+      boolean result;
+    };
+  };
+};

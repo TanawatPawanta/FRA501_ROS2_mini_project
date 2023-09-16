@@ -1,0 +1,8 @@
+source;share/draw_fibo/hook/cmake_prefix_path.ps1
+source;share/draw_fibo/hook/cmake_prefix_path.dsv
+source;share/draw_fibo/hook/cmake_prefix_path.sh
+source;share/draw_fibo/local_setup.bash
+source;share/draw_fibo/local_setup.dsv
+source;share/draw_fibo/local_setup.ps1
+source;share/draw_fibo/local_setup.sh
+source;share/draw_fibo/local_setup.zsh

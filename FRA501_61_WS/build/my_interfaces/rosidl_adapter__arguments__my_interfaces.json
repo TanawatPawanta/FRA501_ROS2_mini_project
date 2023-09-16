@@ -1,0 +1,7 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/tanawatp/FRA501_61_WS/src/my_interfaces:srv/SetTarget.srv",
+    "/home/tanawatp/FRA501_61_WS/src/my_interfaces:srv/ImDone.srv"
+  ]
+}

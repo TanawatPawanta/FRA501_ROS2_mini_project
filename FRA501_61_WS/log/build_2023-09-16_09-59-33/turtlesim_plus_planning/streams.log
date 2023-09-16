@@ -1,0 +1,43 @@
+[0.047s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning -- -j8 -l8
+[0.162s] [100%] Built target cpp_node_test
+[0.164s] [100%] Built target ament_cmake_python_copy_turtlesim_plus_planning
+[0.765s] running egg_info
+[0.767s] writing turtlesim_plus_planning.egg-info/PKG-INFO
+[0.768s] writing dependency_links to turtlesim_plus_planning.egg-info/dependency_links.txt
+[0.768s] writing top-level names to turtlesim_plus_planning.egg-info/top_level.txt
+[0.775s] reading manifest file 'turtlesim_plus_planning.egg-info/SOURCES.txt'
+[0.777s] writing manifest file 'turtlesim_plus_planning.egg-info/SOURCES.txt'
+[0.861s] [100%] Built target ament_cmake_python_build_turtlesim_plus_planning_egg
+[0.874s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning -- -j8 -l8
+[0.927s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning
+[0.945s] -- Install configuration: ""
+[0.945s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/pythonpath.sh
+[0.945s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/pythonpath.dsv
+[0.945s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning-0.0.0-py3.10.egg-info
+[0.945s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.946s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning-0.0.0-py3.10.egg-info/top_level.txt
+[0.946s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[0.946s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.946s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning
+[0.946s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning/dummy_module.py
+[0.946s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning/__init__.py
+[1.006s] Listing '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/local/lib/python3.10/dist-packages/turtlesim_plus_planning'...
+[1.020s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/turtlesim_plus_planning/tao_planning.py
+[1.021s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/turtlesim_plus_planning/cpp_node_test
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus_planning
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus_planning
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/ament_prefix_path.sh
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/ament_prefix_path.dsv
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/path.sh
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/environment/path.dsv
+[1.022s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/local_setup.bash
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/local_setup.sh
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/local_setup.zsh
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/local_setup.dsv
+[1.023s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.dsv
+[1.023s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/ament_index/resource_index/packages/turtlesim_plus_planning
+[1.024s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/cmake/turtlesim_plus_planningConfig.cmake
+[1.024s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/cmake/turtlesim_plus_planningConfig-version.cmake
+[1.024s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.xml
+[1.068s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning

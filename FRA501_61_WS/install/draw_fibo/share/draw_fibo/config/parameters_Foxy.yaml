@@ -1,0 +1,6 @@
+Foxy:
+  tao_controller:
+    ros__parameters:
+      kp_angular: 1.5
+      kp_linear: 1.0
+      tolerance: 0.4

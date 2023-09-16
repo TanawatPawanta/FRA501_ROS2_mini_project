@@ -1,0 +1,9 @@
+{
+  "package_name": "turtlesim_plus_interfaces",
+  "non_idl_tuples": [
+    "/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerData.msg",
+    "/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces:msg/ScannerDataArray.msg",
+    "/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces:srv/GivePosition.srv",
+    "/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces:action/GetData.action"
+  ]
+}

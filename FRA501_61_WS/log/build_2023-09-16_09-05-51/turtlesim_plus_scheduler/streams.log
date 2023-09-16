@@ -1,0 +1,43 @@
+[0.055s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler -- -j8 -l8
+[0.757s] [  0%] Built target ament_cmake_python_copy_turtlesim_plus_scheduler
+[0.757s] [100%] Built target cpp_node_test
+[0.825s] running egg_info
+[0.827s] writing turtlesim_plus_scheduler.egg-info/PKG-INFO
+[0.827s] writing dependency_links to turtlesim_plus_scheduler.egg-info/dependency_links.txt
+[0.828s] writing top-level names to turtlesim_plus_scheduler.egg-info/top_level.txt
+[0.832s] reading manifest file 'turtlesim_plus_scheduler.egg-info/SOURCES.txt'
+[0.833s] writing manifest file 'turtlesim_plus_scheduler.egg-info/SOURCES.txt'
+[0.914s] [100%] Built target ament_cmake_python_build_turtlesim_plus_scheduler_egg
+[0.936s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler -- -j8 -l8
+[1.000s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler
+[1.027s] -- Install configuration: ""
+[1.028s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/pythonpath.sh
+[1.028s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/pythonpath.dsv
+[1.028s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler-0.0.0-py3.10.egg-info
+[1.028s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.028s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler-0.0.0-py3.10.egg-info/top_level.txt
+[1.028s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler-0.0.0-py3.10.egg-info/PKG-INFO
+[1.029s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.035s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler
+[1.035s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler/dummy_module.py
+[1.035s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler/__init__.py
+[1.085s] Listing '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/local/lib/python3.10/dist-packages/turtlesim_plus_scheduler'...
+[1.091s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/turtlesim_plus_scheduler/tao_scheduler.py
+[1.092s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/turtlesim_plus_scheduler/cpp_node_test
+[1.092s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler
+[1.093s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus_scheduler
+[1.093s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus_scheduler
+[1.093s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/ament_prefix_path.sh
+[1.093s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/ament_prefix_path.dsv
+[1.093s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/path.sh
+[1.094s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/environment/path.dsv
+[1.094s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/local_setup.bash
+[1.095s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/local_setup.sh
+[1.097s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/local_setup.zsh
+[1.098s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/local_setup.dsv
+[1.098s] -- Installing: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.dsv
+[1.099s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/ament_index/resource_index/packages/turtlesim_plus_scheduler
+[1.099s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/cmake/turtlesim_plus_schedulerConfig.cmake
+[1.099s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/cmake/turtlesim_plus_schedulerConfig-version.cmake
+[1.100s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.xml
+[1.136s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler

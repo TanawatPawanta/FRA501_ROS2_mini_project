@@ -1,0 +1,52 @@
+[0.076s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/draw_fibo -- -j8 -l8
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[0.169s] [100%] Built target cpp_node_test
+[0.188s] [100%] Built target ament_cmake_python_copy_draw_fibo
+[0.878s] running egg_info
+[0.879s] writing draw_fibo.egg-info/PKG-INFO
+[0.880s] writing dependency_links to draw_fibo.egg-info/dependency_links.txt
+[0.881s] writing top-level names to draw_fibo.egg-info/top_level.txt
+[0.889s] reading manifest file 'draw_fibo.egg-info/SOURCES.txt'
+[0.890s] writing manifest file 'draw_fibo.egg-info/SOURCES.txt'
+[0.948s] [100%] Built target ament_cmake_python_build_draw_fibo_egg
+[0.974s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/draw_fibo -- -j8 -l8
+[1.023s] Invoking command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/draw_fibo
+[1.036s] -- Install configuration: ""
+[1.036s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/pythonpath.sh
+[1.036s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/pythonpath.dsv
+[1.036s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo-0.0.0-py3.10.egg-info
+[1.036s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.037s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo-0.0.0-py3.10.egg-info/top_level.txt
+[1.037s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.037s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.037s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo
+[1.037s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo/dummy_module.py
+[1.037s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo/__init__.py
+[1.093s] Listing '/home/tanawatp/FRA501_61_WS/install/draw_fibo/local/lib/python3.10/dist-packages/draw_fibo'...
+[1.102s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/draw_fibo/dummy_script.py
+[1.102s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/draw_fibo/cpp_node_test
+[1.102s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/launch
+[1.102s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/launch/spawn_4turtles.launch.py
+[1.102s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/launch/PCS.launch.py
+[1.102s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/config
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/config/parameters.yaml
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/via_point
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/via_point/via_point_test_Humble.yaml
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/via_point/via_point_00.yaml
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/via_point/via_point_test.yaml
+[1.103s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/ament_index/resource_index/package_run_dependencies/draw_fibo
+[1.104s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/ament_index/resource_index/parent_prefix_path/draw_fibo
+[1.104s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/ament_prefix_path.sh
+[1.104s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/ament_prefix_path.dsv
+[1.104s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/path.sh
+[1.104s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/environment/path.dsv
+[1.105s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/local_setup.bash
+[1.105s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/local_setup.sh
+[1.105s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/local_setup.zsh
+[1.105s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/local_setup.dsv
+[1.105s] -- Installing: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.dsv
+[1.107s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/ament_index/resource_index/packages/draw_fibo
+[1.108s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/cmake/draw_fiboConfig.cmake
+[1.108s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/cmake/draw_fiboConfig-version.cmake
+[1.108s] -- Up-to-date: /home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.xml
+[1.171s] Invoked command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/draw_fibo

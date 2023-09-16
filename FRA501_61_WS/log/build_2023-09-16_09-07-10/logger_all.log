@@ -1,0 +1,557 @@
+[0.344s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.344s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8654fcabc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f86557e4820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f86557e4820>>)
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tanawatp/FRA501_61_WS'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/draw_fibo) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/draw_fibo' with type 'ros.ament_cmake' and name 'draw_fibo'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interfaces' with type 'ros.ament_cmake' and name 'my_interfaces'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus' with type 'ros.ament_cmake' and name 'turtlesim_plus'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_plus_interfaces'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_controller) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus_controller' with type 'ros.ament_cmake' and name 'turtlesim_plus_controller'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_planning) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus_planning' with type 'ros.ament_cmake' and name 'turtlesim_plus_planning'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus_scheduler) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus_scheduler' with type 'ros.ament_cmake' and name 'turtlesim_plus_scheduler'
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/tanawatp/FRA501_61_WS/install
+[0.439s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tanawatp/fra501_robotdevop/fra501_ws/install
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tanawatp/ros2_workspaceTutorial/install
+[0.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'draw_fibo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'draw_fibo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/draw_fibo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/draw_fibo', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/draw_fibo', 'symlink_install': False, 'test_result_base': None}
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.505s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.505s] DEBUG:colcon.colcon_core.verb:Building package 'my_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/my_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/my_interfaces', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/my_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_controller', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_target' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.510s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.510s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_planning', 'symlink_install': False, 'test_result_base': None}
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_target' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_scheduler' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_scheduler' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler', 'merge_install': False, 'path': '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_scheduler', 'symlink_install': False, 'test_result_base': None}
+[0.512s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/draw_fibo' with build type 'ament_cmake'
+[0.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/draw_fibo'
+[0.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/my_interfaces' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/my_interfaces'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus' with build type 'ament_cmake'
+[0.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_controller' with build type 'ament_cmake'
+[0.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_controller'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces' with build type 'ament_cmake'
+[0.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus/turtlesim_plus_interfaces'
+[0.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_planning' with build type 'ament_cmake'
+[0.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_planning'
+[0.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_scheduler' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tanawatp/FRA501_61_WS/src/turtlesim_plus_scheduler'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/draw_fibo -- -j8 -l8
+[0.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/my_interfaces -- -j8 -l8
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus -- -j8 -l8
+[0.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller -- -j8 -l8
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces -- -j8 -l8
+[0.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning -- -j8 -l8
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler -- -j8 -l8
+[1.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning -- -j8 -l8
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/draw_fibo -- -j8 -l8
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/draw_fibo
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller -- -j8 -l8
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus -- -j8 -l8
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/my_interfaces -- -j8 -l8
+[1.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_planning)
+[1.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_planning
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning' for CMake module files
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning' for CMake config files
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_planning', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/pkgconfig/turtlesim_plus_planning.pc'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/python3.10/site-packages'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/bin'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.dsv'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.sh'
+[1.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.bash'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.zsh'
+[1.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/colcon-core/packages/turtlesim_plus_planning)
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler -- -j8 -l8
+[1.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(draw_fibo)
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo' for CMake module files
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/draw_fibo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/draw_fibo
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo' for CMake config files
+[1.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('draw_fibo', 'cmake_prefix_path')
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.ps1'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.dsv'
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.sh'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/pkgconfig/draw_fibo.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/python3.10/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/bin'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.bash'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.zsh'
+[1.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/colcon-core/packages/draw_fibo)
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces -- -j8 -l8
+[1.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_planning)
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning' for CMake module files
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning' for CMake config files
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_planning', 'cmake_prefix_path')
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/hook/cmake_prefix_path.sh'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/bin'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/pkgconfig/turtlesim_plus_planning.pc'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/lib/python3.10/site-packages'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/bin'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.dsv'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.sh'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.bash'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/turtlesim_plus_planning/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_planning/share/colcon-core/packages/turtlesim_plus_planning)
+[1.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(draw_fibo)
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo' for CMake module files
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo' for CMake config files
+[1.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('draw_fibo', 'cmake_prefix_path')
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/hook/cmake_prefix_path.sh'
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/bin'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/pkgconfig/draw_fibo.pc'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/lib/python3.10/site-packages'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/draw_fibo/bin'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.bash'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/draw_fibo/package.zsh'
+[1.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/draw_fibo/share/colcon-core/packages/draw_fibo)
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/my_interfaces
+[1.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_controller)
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller' for CMake module files
+[1.632s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller' for CMake config files
+[1.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_controller', 'cmake_prefix_path')
+[1.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.dsv'
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.sh'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/bin'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/pkgconfig/turtlesim_plus_controller.pc'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/python3.10/site-packages'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/bin'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.bash'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.zsh'
+[1.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/colcon-core/packages/turtlesim_plus_controller)
+[1.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus' for CMake module files
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus' for CMake config files
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_controller
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib'
+[1.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/bin'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib/python3.10/site-packages'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/bin'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[1.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[1.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_scheduler)
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler' for CMake module files
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_scheduler
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_scheduler', 'cmake_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.sh'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/bin'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/pkgconfig/turtlesim_plus_scheduler.pc'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/python3.10/site-packages'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/bin'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.sh'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.bash'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.zsh'
+[1.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/colcon-core/packages/turtlesim_plus_scheduler)
+[1.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_controller)
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller' for CMake module files
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller' for CMake config files
+[1.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_controller', 'cmake_prefix_path')
+[1.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.ps1'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.dsv'
+[1.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/hook/cmake_prefix_path.sh'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/bin'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/pkgconfig/turtlesim_plus_controller.pc'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/lib/python3.10/site-packages'
+[1.719s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/bin'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.sh'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.bash'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/turtlesim_plus_controller/package.zsh'
+[1.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_controller/share/colcon-core/packages/turtlesim_plus_controller)
+[1.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus' for CMake module files
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus' for CMake config files
+[1.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/bin'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/lib/python3.10/site-packages'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/bin'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[1.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[1.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces' for CMake module files
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/my_interfaces
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces' for CMake config files
+[1.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib'
+[1.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/bin'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib/python3.10/site-packages'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/bin'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.sh'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.bash'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.zsh'
+[1.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces
+[1.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_scheduler)
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler' for CMake module files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_scheduler', 'cmake_prefix_path')
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.dsv'
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/hook/cmake_prefix_path.sh'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/bin'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/pkgconfig/turtlesim_plus_scheduler.pc'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/lib/python3.10/site-packages'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/bin'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.sh'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.bash'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/turtlesim_plus_scheduler/package.zsh'
+[1.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_scheduler/share/colcon-core/packages/turtlesim_plus_scheduler)
+[1.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces' for CMake module files
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanawatp/ros2_workspaceTutorial/install/robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/tanawatp/FRA501_61_WS/build/turtlesim_plus_interfaces
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces' for CMake config files
+[1.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib'
+[1.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/bin'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/bin'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[1.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[1.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces' for CMake module files
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces' for CMake config files
+[1.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[1.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[1.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib'
+[1.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/bin'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/lib/python3.10/site-packages'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/my_interfaces/bin'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.dsv'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.sh'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.bash'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/my_interfaces/package.zsh'
+[1.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces' for CMake module files
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces' for CMake config files
+[1.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib'
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/bin'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/bin'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[1.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tanawatp/FRA501_61_WS/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[1.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.990s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.998s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.998s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.009s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/FRA501_61_WS/install/local_setup.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tanawatp/FRA501_61_WS/install/_local_setup_util_ps1.py'
+[2.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/FRA501_61_WS/install/setup.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/FRA501_61_WS/install/local_setup.sh'
+[2.017s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tanawatp/FRA501_61_WS/install/_local_setup_util_sh.py'
+[2.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/FRA501_61_WS/install/setup.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/FRA501_61_WS/install/local_setup.bash'
+[2.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/FRA501_61_WS/install/setup.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tanawatp/FRA501_61_WS/install/local_setup.zsh'
+[2.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tanawatp/FRA501_61_WS/install/setup.zsh'
