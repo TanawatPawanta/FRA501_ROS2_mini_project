@@ -39,11 +39,15 @@
 > 1.)Sour your ROS2 and workspace
 >
 > 2.)go to FRA501_61_WS and enter this commands to launch
+> 
 > `	colcon build`
+> 
 > `	ros2 launch draw_fibo draw.launch.py`
 >
 > or you can run it separately
+> 
 > `ros2 launch draw_fibo spawn_4turtles.launch.py`
+> 
 > `ros2 launch draw_fibo PCS.launch.py`
 
 
