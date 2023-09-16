@@ -16,10 +16,12 @@
  - [Test and Run](#test-and-run)
 > ## Installation
 > 1.) open terminal and enter this command in yor terminal
-> `	git clone https://github.com/Fzil0n/FRA501_exam1_6461.git`
+> 
+> `git clone https://github.com/Fzil0n/FRA501_exam1_6461.git`
 >
 > 2.) go to FRA501_61_WS/src and enter this command
-> `	git clone https://github.com/tchoopojcharoen/turtlesim_plus.git`
+> 
+> `git clone https://github.com/tchoopojcharoen/turtlesim_plus.git`
 > 
 > ## System Architecture
 > [Click here : system architecture.png](https://drive.google.com/file/d/1BqTgiDabkhHZd-9FrFM0rYJEnVgUlL8M/view?usp=drive_link)
