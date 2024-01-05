@@ -3,7 +3,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 > # FRA501_exam1_6461
-> draw_fibo เป็น package ที่เมื่อเรียกใชะจะ spawn เต่า 4 ตัวออกมาเพื่อวาดคำว่า FIBO ด้วยการทิ้ง  pizza ไว้บนบน turtlesim_plus GUI โดยที่เเต่ละตัวจะมีชื่อเเละหน้าที่ในการวาดดังนี้
+> The draw_fibo package is a tool that, when invoked, spawns four turtles to draw the word "FIBO" by leaving a trail of pizza on the turtlesim_plus GUI. Each turtle has a specific name and role in the drawing process:
  - Foxy วาด F
  - Noetic วาด I
  - Humble วาด B
