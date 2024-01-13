@@ -24,7 +24,8 @@
 > `git clone https://github.com/tchoopojcharoen/turtlesim_plus.git`
 > 
 > ## System Architecture
-> [Click here : system architecture.png](https://drive.google.com/file/d/1BqTgiDabkhHZd-9FrFM0rYJEnVgUlL8M/view?usp=drive_link)
+> 
+> <img width="562" alt="image" src="https://github.com/TanawatPawanta/FRA501_ROS2_mini_project/assets/83177015/a69990fb-6c47-4aff-a61e-3f51678ad5e4">
 > 
 > **Packages list**
  - *turtlesim_plus_planning* : เป็น package สำหรับสร้าง path ของเต่าเเต่ละตัวให้เป็นตัวอักษรที่ต้องการ โดยจะมี Node "*tao_plannig*" ที่จะสร้าง path สร้างตาม namespace เเละนำไปเก็บไว้ที่ via_point_xx.yaml ที่รับมาจาก ros parameters
