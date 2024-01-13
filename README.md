@@ -4,10 +4,10 @@
 > Written with [StackEdit](https://stackedit.io/).
 > # FRA501_exam1_6461
 > The draw_fibo package is a tool that, when invoked, spawns four turtles to draw the word "FIBO" by leaving a trail of pizza on the turtlesim_plus GUI. Each turtle has a specific name and role in the drawing process:
- - Foxy วาด F
- - Noetic วาด I
- - Humble วาด B
- - Iron วาด O
+ - Foxy draw F
+ - Noetic draw I
+ - Humble draw B
+ - Iron draw O
 
 > ## Table of contents
 > 
