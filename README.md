@@ -4,10 +4,10 @@
 > Written with [StackEdit](https://stackedit.io/).
 > # FRA501_exam1_6461
 > The draw_fibo package is a tool that, when invoked, spawns four turtles to draw the word "FIBO" by leaving a trail of pizza on the turtlesim_plus GUI. Each turtle has a specific name and role in the drawing process:
- - Foxy draw F
- - Noetic draw I
- - Humble draw B
- - Iron draw O
+ - Foxy 	draw F
+ - Noetic 	draw I
+ - Humble 	draw B
+ - Iron 	draw O
 
 > ## Table of contents
 > 
@@ -28,14 +28,14 @@
 > <img width="562" alt="image" src="https://github.com/TanawatPawanta/FRA501_ROS2_mini_project/assets/83177015/a69990fb-6c47-4aff-a61e-3f51678ad5e4">
 > 
 > **Packages list**
- - *turtlesim_plus_planning* : เป็น package สำหรับสร้าง path ของเต่าเเต่ละตัวให้เป็นตัวอักษรที่ต้องการ โดยจะมี Node "*tao_plannig*" ที่จะสร้าง path สร้างตาม namespace เเละนำไปเก็บไว้ที่ via_point_xx.yaml ที่รับมาจาก ros parameters
- - *turtlesim_plus_scheduler* : เป็น package สำหรับจัดการตารางการเคลื่อนที่ของน้องเต่าโดยจะคอยบอกจุดต่อไปที่น้องเต่าต้องไป โดยจะมี Node "*tao_scheduler*" ทำการ request ผ่าน ros service "go2Target" นอกจากนี้ยังทำหน้าที่ในการส่ง request สำหรับการ spawn pizza อีกด้วยโดยภายใน package จะประกอบด้วย ros argument ที่เป็นการรับ file path ของ via_point_xx.yaml ที่อยู่ใน share directory
- - *turtlesim_plus_controller* : เป็น package สำหรับควบคุมให้น้องเต่าเคลื่อนที่ไปยังจุดที่ต้องการโดยใช้ P controller ภายในจะมี Node "*tao_controller*" ที่มีการประกาศ  ros parameters ไว้คือ kp_linear, kp_angular และ tolerance ซึ่งเมื่อถึงจุดหมายจะทำการส่ง request ผ่าน ros service "arriveFlag" เพื่อเป้นการบอก tao_scheduler ว่าถึงจุดหมายเเล้ว
- - *my_interface* : เป็น package ที่เอาไว้เก็บ  interfaces ที่ใช้ เช่น SetTarget
- - *draw_fibo* : เป็น package ที่เก็บไฟล์ launch, parameters.yaml เเละ via_points.yaml เอาไว้โดยใน launch จะประกอบไปด้วย 3 launch files ย่อย ได้เเก่ 
-	 - spawn_4turtles.launch.py สำหรับการ spwan เต่าทั้ง 4 ตัวเเละตั้ง namespace ให้
-	 - PCS.launch.py สำหรับสร้าง Node *tao_controller และ  tao_scheduler*รวมทั้งตั้ง namespace เเละนำ parameters, argument จากไฟล์ YAML  ไปใส่ไว้ที่ Node นั้น ๆ ด้วย
-	 - draw.launch.py สำหรับเป็นตัว launch ของทั้ง 2 ไฟล์ด้านบนอีกที
+ - *turtlesim_plus_planning* : This is a package for generating paths for each turtle to follow based on the desired characters. It includes a node "tao_planning" that creates paths according to the specified namespace and stores them in via_point_xx.yaml files, which are received from ROS parameters.
+ - *turtlesim_plus_scheduler* : This is a package for managing the movement schedule of the turtles. It informs each turtle about the next point it should move to. The package includes a node "tao_scheduler" that requests this information through the ROS service "go2Target". Additionally, it plays a role in sending requests for pizza spawning. Inside the package, there are ROS arguments that receive file paths for via_point_xx.yaml files located in the share directory.
+ - *turtlesim_plus_controller* : This is a package for controlling the movement of turtles to specific points using a P controller. Inside, there is a node "tao_controller" that declares ROS parameters, namely kp_linear, kp_angular, and tolerance. When the turtle reaches its destination, it sends a request through the ROS service "arriveFlag" to inform the tao_scheduler that it has reached the target point.
+ - *my_interface* : This is a package for store interfaces that used in this project such as SetTarget.
+ - *draw_fibo* : This is a main package in this package contain launch file, parameters.yaml and via_points.yaml, in the launch folder have 3 sub launch files:  
+	 - spawn_4turtles.launch.py for spwan 4 tuetles and set their namespace.
+	 - PCS.launch.py for creat Node *tao_controller and  tao_scheduler*,set node's namespace.
+	 - draw.launch.py for launch 2 file above.
 
 > 
 > ## Test and Run
