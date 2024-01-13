@@ -39,9 +39,10 @@
 
 > 
 > ## Test and Run
-> 1.)Source your ROS2 and workspace
+> 
+1.)Source your ROS2 and workspace
 >
-> 2.)go to FRA501_61_WS and enter this commands to launch
+2.)go to FRA501_61_WS and enter this commands to launch
 > 
 > `colcon build`
 > 
