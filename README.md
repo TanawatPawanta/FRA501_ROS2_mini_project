@@ -43,9 +43,9 @@
 >
 > 2.)go to FRA501_61_WS and enter this commands to launch
 > 
-> `	colcon build`
+> `colcon build`
 > 
-> `	ros2 launch draw_fibo draw.launch.py`
+> `ros2 launch draw_fibo draw.launch.py`
 >
 > or you can run it separately
 > 
@@ -54,6 +54,6 @@
 > `ros2 launch draw_fibo PCS.launch.py`
 
 
-write by : Tanawat
+
 
 
